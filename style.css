@@ -317,6 +317,11 @@ footer img {
     margin-left: 20px;
   }
 
+  .site-nav a:hover {
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary);
+  }
+
   .welcome-text {
     align-self: center;
   }
