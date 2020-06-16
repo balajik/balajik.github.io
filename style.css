@@ -2,6 +2,7 @@
 :root {
   --primary: #FFC636;
   --secondary: #0A0B5B;
+  scroll-behavior: smooth;
 }
 
 /* reset */
@@ -397,4 +398,17 @@ footer img {
   footer img {
     width: 30px;
   }
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  outline: none;
+  background-color: #efefef;
+  border: 1px solid #333;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
 }
